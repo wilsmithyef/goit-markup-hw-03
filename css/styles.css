@@ -1,0 +1,220 @@
+:root {
+    --primary-black-color: #212121;
+    --primary-text-color: #757575;
+    --primary-white-color: #ffffff; 
+    --brand-color: #3f51b5;
+    --accent-color: #2196f3;
+    --backgrount-black: #2f303a; 
+    --background-gray: #f5f4fa;
+    --button-filter: #f5f4fa; 
+    --button-primary-hover: #188ce8;
+}
+
+body { 
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-black-color);
+}
+
+a{
+text-decoration: none;
+color: currentColor;
+}
+
+.logo {
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    font-size:  26px;
+    line-height: 1.2;
+    text-align: right;
+    color: var(--accent-color);
+}
+
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--primary-black-color);
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.studio:hover,
+.portfolio:hover,
+.contacts:hover,
+.email:hover,
+.phone:hover {
+    color: var(--accent-color);
+}
+ 
+.email,
+.phone {
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+    cursor: pointer;
+    line-height: 1.1px;
+    letter-spacing: 0.02em;
+}
+
+.active {
+    color: var(--accent-color);
+}
+
+.hero-bg-hero, footer {
+    background-color: var(--backgrount-black);
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 44px;
+    letter-spacing: 0,06em;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.button-primary {
+    font-size: 16px;
+    background-color: var(--button-primary-hover);
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0,06em;
+    color: var(--primary-white-color);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    color: var(--primary-white-color);
+}
+
+.title-benefits {
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: var(--primary-black-color);
+}
+
+.description {
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--primary-text-color);
+}
+
+.section-what {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-black-color);
+}
+
+.section-team {
+    color: var(--background-gray);
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-black-color);
+}
+
+.who-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-black-color);
+}
+
+.area {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+}
+
+.footer-direction {
+    font-weight: 400;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
+.footer-direction:hover {
+    color: var(--accent-color);
+}
+
+.footer-email {
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--primary-text-color);
+}
+
+.footer-email:hover {
+    color: var(--accent-color);
+}
+
+.footer-phone {
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--primary-text-color);
+}
+
+.footer-phone:hover {
+    color: var(--accent-color);
+}
+
+.button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+    color: var(--primary-black-color)
+}
+
+.active-button {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.button:hover, 
+.button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--primary-black-color);
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--primary-text-color);
+}
