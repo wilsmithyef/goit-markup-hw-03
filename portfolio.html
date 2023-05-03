@@ -22,36 +22,40 @@
   <body>
     <!--header section-->
     <header>
-      <nav>
-        <!--logo-->
-        <a class="logo" href="./index.html">WebStudio</a>
-        <!--menu-->
-        <ul class="menu">
-          <li><a href="./index.html" class="studio">Estudio</a></li>
-          <li>
-            <a href="./index.html" class="portfolio active">Portafolio</a>
-          </li>
-          <li><a href="./index.html" class="contacts">Contactos</a></li>
+      <div class="container">
+        <nav>
+          <!--logo-->
+          <a class="logo" href="./index.html">WebStudio</a>
+          <!--menu-->
+          <ul class="nav-menu list">
+            <li><a href="./index.html" class="page">Estudio</a></li>
+            <li>
+              <a href="./index.html" class="page current">Portafolio</a>
+            </li>
+            <li><a href="./index.html" class="contacts page">Contactos</a></li>
+          </ul>
+        </nav>
+        <!--contacts-->
+        <ul class="contacts-menu list">
+          <li><a class="item" href="#">info@devstudio.com</a></li>
+          <li><a class="item" href="#">+52 55 5529 6000</a></li>
         </ul>
-      </nav>
-      <!--contacts-->
-      <ul class="contacts">
-        <li><a href="#" class="email">info@devstudio.com</a></li>
-        <li><a href="#" class="phone">+52 55 5529 6000</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
-        <!--Portfolio-->
-        <ul>
-          <li>
-            <button class="button" type="button active-button">All</button>
-          </li>
-          <li><button class="button" type="button">web-sites</button></li>
-          <li><button class="button" type="button">App</button></li>
-          <li><button class="button" type="button">Design</button></li>
-          <li><button class="button" type="button">Marketing</button></li>
-        </ul>
+        <div class="container">
+          <!--Portfolio-->
+          <ul class="button-nav">
+            <li>
+              <button class="button" type="button active-button">All</button>
+            </li>
+            <li><button class="button" type="button">web-sites</button></li>
+            <li><button class="button" type="button">App</button></li>
+            <li><button class="button" type="button">Design</button></li>
+            <li><button class="button" type="button">Marketing</button></li>
+          </ul>
+        </div>
 
         <!--card list-->
         <ul class="list">
@@ -169,7 +173,7 @@
     <footer>
       <a class="footer-logo" href="">WebStudio</a>
 
-      <address>
+      <address class="contact">
         <ul>
           <li>
             <a
