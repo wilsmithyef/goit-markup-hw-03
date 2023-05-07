@@ -84,7 +84,7 @@ a {
 }
 
 .section {
-  padding-bottom: 94px 0px;
+  padding-bottom: 94px;
 }
 
 .section > h2 {
@@ -112,6 +112,12 @@ header {
 
   height: 80px;
   padding: 0 var(--container-pading);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header nav {
@@ -153,9 +159,6 @@ header nav .nav-menu .page {
   display: flex;
   list-style: none;
   gap: 80px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 40px;
 }
 
 .contacts-menu .item {
@@ -253,12 +256,12 @@ ul {
   align-items: flex-start;
   justify-content: space-evenly;
   display: flex;
+  width: 100%;
 }
 
 .benefits .benef-l {
   list-style: none;
   width: 240px;
-  padding-bottom: 94px;
   padding-top: 95px;
   margin-left: 30px;
 }
@@ -444,6 +447,12 @@ ul {
   padding: 15px;
 }
 
+ul li:hover {
+  color: var(--primary-white-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /*-------------------cards--------------*/
 
 .container .list {
@@ -457,7 +466,7 @@ ul {
   margin-bottom: 50px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  bo-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -513,6 +522,7 @@ address .contact:hover {
   font-weight: 400;
   line-height: 1.7;
   color: #ffffff;
+  font-style: normal;
 }
 
 .footer-direction:hover {
@@ -523,6 +533,7 @@ address .contact:hover {
   font-weight: 400;
   line-height: 1.7;
   color: var(--primary-text-color);
+  font-style: normal;
 }
 
 .footer-email:hover {
@@ -533,6 +544,7 @@ address .contact:hover {
   font-weight: 400;
   line-height: 1.7;
   color: var(--primary-text-color);
+  font-style: normal;
 }
 
 .footer-phone:hover {
@@ -555,7 +567,8 @@ address .contact:hover {
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.buttom:active {
   color: #ffffff;
   background-color: var(--accent-color);
 }
